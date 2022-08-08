@@ -5,18 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login com Javascript</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
     <link rel="stylesheet" href="/css/main.css">
-    <script src="/js/index.js"></script>
 </head>
 <body>
     <div class="login-form">
         <h2>Treino Javascript</h2>
         <p>Olá Seja Bem-vindo ao Login</p>
         <form class="form-flex" action="">
-            <input type="text" name="login" id="login">
-            <input type="text" name="password" id="password">
-            <input type="submit" value="Confirmar">
+            <div class="single-i">
+                <i class="icon fas fa-user"></i>
+                <input type="text" name="login" id="login" placeholder="Username">
+            </div>
+            <div class="single-i">
+                <i class="icon fas fa-unlock"></i> 
+                <input type="password" name="password" id="password" placeholder="Password">
+            </div>
+            <div class="single-i btn">
+                <input type="submit" value="Confirmar">
+            </div>
         </form>
     </div>
+    <ul class="squares">
+    </ul>
+    <script src="/js/index.js"></script>
 </body>
 </html>

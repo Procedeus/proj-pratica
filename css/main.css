@@ -15,6 +15,7 @@
     font-weight: 400;
     margin: 0;
     color: var(--text-color);
+    list-style-type: none;
 }
 
 h2{
@@ -25,15 +26,18 @@ h2{
 body{
     height: 100vh;
     background: var(--background);
+    overflow: hidden;
 }
 
 input{
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
     padding: 0.3rem 0.5rem;
     background: var(--background-lite);
+    width: 100%;
+    box-sizing: content-box;
 }
 
-input:hover{
+input:hover, .icon:hover{
     background: var(--background-lite-hover);
 }
 
@@ -53,4 +57,55 @@ form{
     flex-direction: column;
     gap: 0.3rem;
     align-items: center;
+}
+
+input:focus {
+    outline: 0;
+} 
+
+.icon{
+
+    background: var(--background-lite);
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.single-i{
+    display: flex;
+    width: 250px;
+}
+
+.single-i i{
+    border-radius: 5px 0 0 5px;
+}
+
+.btn{
+    margin-top: 0.5rem;
+}
+
+.squares li{
+    width: 40px;
+    height: 40px;
+    background-color: var(--background-lite);
+    display: block;
+    position: absolute;
+    opacity: 0.15;
+    animation: up 2s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes up{
+    from{
+        opacity: 0;
+        transform: translateY(0);
+    }
+    50%{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        transform: translateY(-1000px) rotate(960deg);
+    }
 }
