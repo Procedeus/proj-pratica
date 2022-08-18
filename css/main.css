@@ -29,7 +29,7 @@ body{
     overflow: hidden;
 }
 
-input{
+.inp{
     border-radius: 0 5px 5px 0;
     padding: 0.3rem 0.5rem;
     background: var(--background-lite);
@@ -37,7 +37,15 @@ input{
     box-sizing: content-box;
 }
 
-input:hover, .icon:hover{
+.inp-2{
+    padding: 0.3rem 0.5rem;
+    background: var(--background-lite);
+    width: 100%;
+    box-sizing: content-box;
+}
+
+
+input:hover, .icon:hover, .icon-2:hover, .btn:hover{
     background: var(--background-lite-hover);
 }
 
@@ -64,7 +72,16 @@ input:focus {
 } 
 
 .icon{
+    border-radius: 5px 0 0 5px;
+    background: var(--background-lite);
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    padding: 8px 0px;
+}
 
+.icon-2{
+    border-radius: 0 5px 5px 0;
     background: var(--background-lite);
     color: white;
     min-width: 50px;
@@ -77,12 +94,13 @@ input:focus {
     width: 250px;
 }
 
-.single-i i{
-    border-radius: 5px 0 0 5px;
-}
-
 .btn{
-    margin-top: 0.5rem;
+    text-align: center;
+    border-radius: 5px 5px;
+    padding: 0.3rem 0.5rem;
+    background: var(--background-lite);
+    width: 100%;
+    box-sizing: content-box;
 }
 
 .squares li{
@@ -108,4 +126,22 @@ input:focus {
         opacity: 0;
         transform: translateY(-1000px) rotate(960deg);
     }
+}
+
+nav{
+    background: var(--background-lite);
+}
+
+.flex{
+    width: 80%;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.confirm-reg{
+    padding-top: 0.3rem;
+    gap: 0.3rem;
 }

@@ -20,3 +20,10 @@ for(let i = 0; i < 11; i++){
 
     ul.appendChild(li);
 }
+
+
+let input = document.querySelector('.inp-2');
+let i = document.querySelector('.icon-2');
+i.addEventListener('click', () => {
+  input.type = input.type == 'text' ? 'password' : 'text';
+});
