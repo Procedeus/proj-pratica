@@ -1,1 +1,1 @@
-Projeto com o foco na pratica das linguagens de programação.
+Projeto com o foco na pratica de HTML, CSS, JAVASCRIPT e PHP.
