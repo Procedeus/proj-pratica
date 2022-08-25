@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Titulo</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="./views/css/main.css?=1" type="text/css">
 </head>
 <body>
     <?php require("$view.view.php"); ?>

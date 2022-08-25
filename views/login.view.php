@@ -25,5 +25,5 @@
             </div>
         </form>
     </div>
-    <script src="js/index.js"></script>
+    <script src="./views/js/index.js"></script>
 </body>
