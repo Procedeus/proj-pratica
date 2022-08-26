@@ -156,9 +156,9 @@
     <p class="explicacao"> Criado por</p>
     <h2>Murilo Rezende</h2>
     <div class="div-flex">
-        <a href=""><i class="fab fa-linkedin fa-lg"></i></a>
-        <a href=""><i class="fab fa-github fa-lg"></i></a>
-        <a href=""><i class="fab fa-instagram fa-lg"></i></i></a>
+        <a href="https://www.linkedin.com/in/murilo-rez/"><i class="fab fa-linkedin fa-lg"></i></a>
+        <a href="https://github.com/Procedeus"><i class="fab fa-github fa-lg"></i></a>
+        <a href="https://www.instagram.com/mu.rezende/"><i class="fab fa-instagram fa-lg"></i></i></a>
     </div>
 </footer>
 

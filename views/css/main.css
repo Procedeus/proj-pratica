@@ -252,7 +252,7 @@ nav{
 }
 
 .div-projetos > div > img{
-    width: 500px;
+    max-width: 100%;
     border-radius: 5px;
 }
 
@@ -286,4 +286,43 @@ footer{
 
 footer > div.div-flex{
     margin-top: 0.3rem;
+}
+
+@media screen and (max-width: 1020px) {
+    .div-flex-wrap{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+    }
+    .div-experiencia, .div-projetos, .div-contatos {
+        width: auto;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    .perfil{
+        text-align: center;
+    }
+    .p-perfil{
+        width: auto;
+    }
+    .div-img-perfil{
+        display: block;
+    }
+    .icons{
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 0.3rem;
+    }
+    .flex > li {
+        display:flex; 
+        flex-direction: column; 
+        gap: 0.3rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    section{
+        width: 90%;
+    }
 }
